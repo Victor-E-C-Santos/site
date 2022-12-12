@@ -1,12 +1,7 @@
 body{
     color: white;
     background-color: black;
-    font-family: Arial;
-}
-
-div.img {
-    display: flex;
-    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
@@ -16,32 +11,42 @@ ul{
     align-items: center;
     padding: 16px;
 }
-
-a {
-    color: white;
-    text-decoration: none;
+ 
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 10px solid blue;
+}
+.center{
+    text-align: center;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid red;
-}
-
-.center {
-text-align: center;
-}
-
-h1{
+h1 {
     color: red;
 }
-h2{
-    color: gray;
+
+h2 {
+    color: crimson;
 }
-p{
-    color: gray;
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius:  2px;
+    border: 2px solid red;
 }
-h3{
-    color: red;
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
 }
